@@ -1,0 +1,3 @@
+## In this project used...
+
+React, Vite, TypeScript and TailwindCSS
