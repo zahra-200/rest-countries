@@ -36,7 +36,7 @@ function CountryDetail() {
     .map((key) => (getSingleCounrty as unknown as Record<string, unknown>)[key])
     .filter((value) => value);
   return (
-    <div className="bg-[var(--Very-Light-Gray)] dark:bg-[var(--Very-Dark-Blue-Background)] h-full lg:h-screen px-6 py-8">
+    <div className="bg-[var(--Very-Light-Gray)] dark:bg-[var(--Very-Dark-Blue-Background)] h-full min-h-screen px-6 py-8">
       <div>
         <Link to={"/"}>
           <button className="bg-[var(--White)] dark:bg-[var(--Dark-Blue)] dark:text-[var(--White)] dark:font-thin dark:shadow-[var(--Very-Dark-Blue)] flex items-center justify-center gap-2 shadow-[var(--Dark-Gray)] shadow-[0px_2px_8px_0px]  px-5 py-[6px] text-sm rounded-sm">

@@ -118,7 +118,7 @@ function Home() {
   };
 
   return (
-    <div className="bg-[var(--Very-Light-Gray)] dark:bg-[var(--Very-Dark-Blue-Background)] h-full  p-5">
+    <div className="bg-[var(--Very-Light-Gray)] dark:bg-[var(--Very-Dark-Blue-Background)] h-full min-h-screen  p-5">
       <div className="w-full flex flex-col gap-7 sm:flex-row sm:justify-between sm:items-center">
         {/* Search Box */}
         <div className="bg-white dark:bg-[var(--Dark-Blue)] rounded-md shadow-sm w-full min-[426px]:w-[60%] flex items-center gap-4">
