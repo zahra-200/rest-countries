@@ -39,7 +39,7 @@ function CountryDetail() {
     <div className="bg-[var(--Very-Light-Gray)] dark:bg-[var(--Very-Dark-Blue-Background)] h-full lg:h-screen px-6 py-8">
       <div>
         <Link to={"/"}>
-          <button className="bg-[var(--White)] dark:bg-[var(--Dark-Blue)] dark:text-[var(--White)] dark:font-thin dark:shadow-[var(--Very-Dark-Blue)] flex items-center justify-center gap-2 shadow-[var(--Dark-Gray)] shadow-[0px_3px_8px] px-5 py-[6px] text-sm rounded-sm">
+          <button className="bg-[var(--White)] dark:bg-[var(--Dark-Blue)] dark:text-[var(--White)] dark:font-thin dark:shadow-[var(--Very-Dark-Blue)] flex items-center justify-center gap-2 shadow-[var(--Dark-Gray)] shadow-[0px_2px_8px_0px]  px-5 py-[6px] text-sm rounded-sm">
             <FontAwesomeIcon icon={faArrowLeft} /> Back
           </button>
         </Link>
@@ -126,7 +126,7 @@ function CountryDetail() {
                     {(borders as string[]).map((country: string) => (
                       <p
                         key={country}
-                        className="text-xs w-20 bg-[var(--White)] rounded-sm px-7 py-1 shadow-[var(--Dark-Gray)] shadow-[0px_3px_8px] dark:bg-[var(--Dark-Blue)] dark:text-[var(--White)] dark:font-thin dark:shadow-[var(--Very-Dark-Blue)]"
+                        className="text-xs w-20 bg-[var(--White)] rounded-sm px-7 py-1 shadow-[var(--Dark-Gray)] shadow-[0px_2px_8px_0px] dark:bg-[var(--Dark-Blue)] dark:text-[var(--White)] dark:font-thin dark:shadow-[var(--Very-Dark-Blue)]"
                       >
                         {country}
                       </p>
